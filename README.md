@@ -1,7 +1,6 @@
 ## ReadyNAS OS App SDK
-----------------------
 
-![ReadyNAS SDK Logo](https://apps.readynas.com/pages/wp-content/uploads/2017/02/readynas-sdk-banner-1024x338.jpg "ReadyNAS SDK Logo")
+![ReadyNAS SDK Logo](https://raw.githubusercontent.com/wiki/readynas/sdk/images/ReadyNAS_SDK_banner_960x100.png "ReadyNAS SDK Logo")
 
 
 ### What are ReadyNAS Apps?
