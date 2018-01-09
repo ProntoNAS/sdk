@@ -21,4 +21,4 @@ NETGEAR hosts the [ReadyNAS Network Storage](https://community.netgear.com/t5/Re
 
 
 #### Contact Us
-[Email us](<mailto:devreadynas@netgear.com>) questions about submissions:
+[Email us](<mailto:devreadynas@netgear.com>) questions about submissions or status of your ReadyNAS App.
