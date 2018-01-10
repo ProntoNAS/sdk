@@ -3,8 +3,8 @@ PROG = sample1
 
 # TBD 
 ifeq (${ARCH},arm)
-	CC		= arm-linux-gnueabi-gcc-4.7
-	CXX		= arm-linux-gnueabi-g++-4.7
+	CC		= arm-linux-gnueabi-gcc-4.9
+	CXX		= arm-linux-gnueabi-g++-4.9
 	STRIP		= arm-linux-gnueabi-strip
 	LIBTOOL		= /usr/arm-linux-gnueabi/bin/libtool
 	LDFLAGS		= -L/usr/arm-linux-gnueabi/lib
