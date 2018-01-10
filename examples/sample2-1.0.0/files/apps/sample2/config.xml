@@ -3,7 +3,7 @@
   <Author>NETGEAR Inc.</Author><!-- Authors name. upto 48 chars -->
   <Version>1.0.0-p1</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicates reboot is required. -->
-  <ConfigURL>https://localhost/apps/config.html</ConfigURL><!-- 'localhost' will be replaced by framework JS. -->
+  <ConfigURL>https://localhost/apps/sample2/config.html</ConfigURL><!-- 'localhost' will be replaced by framework JS. -->
   <LaunchURL>http://localhost:7081/index.html</LaunchURL><!-- 'localhost' will be replaced by framework JS. -->
   <ReservePort>7081</ReservePort>
   <DebianPackage>sample2</DebianPackage>
