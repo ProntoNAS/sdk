@@ -27,14 +27,6 @@ case "$1" in
     for conf in $(cd $APPDIR/default-config; find . -type f -o -type l); do
       [ -e $APPDIR/config/$conf -o -L $APPDIR/config/$conf ] || (cd $APPDIR/default-config; tar cf - $conf) | (cd $APPDIR/config; tar xpf -) 2>/dev/null
     done
-    # Restart apache so that all site-enables will be updated
-    if systemctl restart apache2.service; then
-      # success
-      event_push app readynasd '<add-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="sample2" success="1" reboot="1"/></add-s>' 0 0
-    else
-      # error
-      event_push app readynasd '<add-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="sample2" success="0"/></add-s>' 0 0
-    fi
     ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)

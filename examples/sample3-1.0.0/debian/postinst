@@ -21,13 +21,6 @@ set -e
 case "$1" in
     configure)
     chown -R admin:admin /apps/sample3
-    if systemctl restart apache2.service; then
-      # success
-      event_push app readynasd '<add-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="sample3" success="1"/></add-s>' 0 0
-    else
-      # error
-      event_push app readynasd '<add-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="sample3" success="0"/></add-s>' 0 0
-    fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
