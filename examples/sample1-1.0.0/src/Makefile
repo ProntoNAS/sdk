@@ -1,7 +1,7 @@
 
 PROG = sample1
 
-# TBD 
+# TBD
 ifeq (${ARCH},arm)
 	CC		= arm-linux-gnueabi-gcc-4.9
 	CXX		= arm-linux-gnueabi-g++-4.9
@@ -51,4 +51,3 @@ install: $(PROG)
 	install -d $(DESTDIR)/apps/sample1
 	install -d $(DESTDIR)/apps/sample1/bin
 	install $(PROG) $(DESTDIR)/apps/sample1/bin/
-
