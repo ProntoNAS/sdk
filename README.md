@@ -1,6 +1,6 @@
 ## ReadyNAS OS App SDK
 
-![ReadyNAS SDK Logo](https://raw.githubusercontent.com/wiki/readynas/sdk/images/ReadyNAS_SDK_banner_960x100.png "ReadyNAS SDK Logo")
+![ReadyNAS SDK Logo](https://raw.githubusercontent.com/wiki/prontonas/sdk/images/ReadyNAS_SDK_banner_960x100.png "ReadyNAS SDK Logo")
 
 
 ### What are ReadyNAS Apps?
@@ -11,7 +11,7 @@
 ### SDK Documentation
 NETGEAR welcomes ReadyNAS OS App developers.
 
-For extended documentation located in the [wiki](https://github.com/ReadyNAS/sdk/wiki).
+For extended documentation located in the [wiki](https://github.com/prontonas/sdk/wiki).
 
 
 ### Contact information
